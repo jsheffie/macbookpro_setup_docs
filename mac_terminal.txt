@@ -1,8 +1,8 @@
 
 
-           apple -> t     ==  make a new terminal window
-  shift -> apple -> arrow == switch through terminals
+           command -> t     ==  make a new terminal window
+  shift -> command -> arrow == switch through terminals
 
-  shift -> apple -> +     == larger font
-  shift -> apple -> -     == smaller font
+  shift -> command -> +     == larger font
+  shift -> command -> -     == smaller font
 

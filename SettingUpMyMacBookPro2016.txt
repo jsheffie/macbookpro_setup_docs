@@ -4,7 +4,7 @@ First things first... go through the apple settup stuff.
 
 
   - Find a terminal and pin it to the doc
-  - Learn to use the terminal Documents/mac_docs/mac_terminal.txt
+  - Learn to use the terminal Documents/macbookpro_setup_docs/mac_terminal.txt
   - Install GoogleChrome ( how to install googlechrome on the mac ) 
   - Install Sublime ( OS X 10.7 or later required )  I have 10.11.6
   - Install Atom
@@ -12,7 +12,10 @@ First things first... go through the apple settup stuff.
     - $ git --version
     Launches the ( install Xcode && Developer tools ) from the App Store
   - install Brew
-    MacPorts - Fink - HomeBrew
+    Could have chosen
+          ,---------------------------.
+         |  MacPorts | Fink | HomeBrew |
+          `---------------------------'
     - http://brew.sh/index.html
       Notes: Python was already installed ( 2.7.10 ) 
     - brew install wget
@@ -20,11 +23,22 @@ First things first... go through the apple settup stuff.
 
   - what virtualization am I going to use.
     - start with vagrant
-       - Parallels 
-       - VMWareFusion
-       * - Virtualbox
+          ,--------------------------------------.
+         |  Parallels | VMWareFusion | Virtualbox |
+          `--------------------------------------'
 
-  - Must haves from Adam
+  - Install Docker
+    - on Mac... first install boot2docker
+    - brew install boot2docker
+      $ boot2docker init ( one time run ) 
+      $ boot2docker up
+      $ $(boot2docker shellinit) 
+      -- consider putting this in your .bash_profile file ( at the end ) -- 
+      $ docker ps -a
+      $ 
+      $ 
+    
+  - Must haves from Adam K
     - Menu Meters https://www.ragingmenace.com/software/menumeters/
     - TotalTerminal http://totalterminal.binaryage.com/
     - Spectacle app https://www.spectacleapp.com/
