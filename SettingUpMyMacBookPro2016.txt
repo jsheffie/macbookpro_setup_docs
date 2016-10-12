@@ -28,16 +28,25 @@ First things first... go through the apple settup stuff.
           `--------------------------------------'
 
   - Install Docker
-    - on Mac... first install boot2docker
-    - brew install boot2docker
-      $ boot2docker init ( one time run ) 
-      $ boot2docker up
-      $ $(boot2docker shellinit) 
-      -- consider putting this in your .bash_profile file ( at the end ) -- 
-      $ docker ps -a
+    #- on Mac... first install boot2docker
+    #- brew install boot2docker
+    #  $ boot2docker init ( one time run ) 
+    #  $ boot2docker up
+    #  $ $(boot2docker shellinit) 
+    #  -- consider putting this in your .bash_profile file ( at the end ) -- 
+    #  $ docker ps -a
+    Apparently boot2docker is depricated.
+     - Docker Machin ehttps://docs.docker.com/machine/
+     - Docker Toolbox ( https://docker.com/toolbox )
+     These sortof pointed me here: ( https://docs.docker.com/docker-for-mac/ )
+
+
+
       $ 
       $ 
-    
+  - Install the silver searcher
+      $ brew install the_silver_searcher
+  
   - Must haves from Adam K
     - Menu Meters https://www.ragingmenace.com/software/menumeters/
     - TotalTerminal http://totalterminal.binaryage.com/
